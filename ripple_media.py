@@ -20,8 +20,9 @@ def box_office_data():
         'The Green Mile', 'Bowfinger', 'Life', 'The Bone Collector', "She's All That", 'End of Days', 'Three Kings',
         'A Civil Action', 'Stepmom', 'Eyes Wide Shut', 'Never Been Kissed', 'Forces of Nature', 'Varsity Blues',
         'Message in a Bottle', "You've Got Mail", 'South Park: Bigger, Longer & Uncut', 'Stigmata',
-        'Life Is Beautiful', 'The Prince of Egypt','Deuce Bigalow: Male Gigolo',
-    ]
+        'Life Is Beautiful', 'The Prince of Egypt','Deuce Bigalow: Male Gigolo',]
+   
+    
 
     # 1.1 TODO: Convert the string `movies_str` into a list and assign it to a variable called `remaining_50_list`
     # NOTE: make sure that the commas that separate the titles in the string don't stay in the titles in the list!
@@ -54,7 +55,7 @@ def box_office_data():
     top_50_list.extend(remaining_50_list)
     top_100 = top_50_list
     print(len(top_100))
-# box_office_data()
+
     # 1.6 TODO: Let's print the first movie in our `top_100`list.
     # Use 'indexing' to do this.
     print(top_100[0])
@@ -62,7 +63,7 @@ def box_office_data():
     # 1.7 TODO: Print the top 10 movies in `top_100` as a list.
     # Use 'slicing' to accomplish this!
     print(top_100[0:10])
-    box_office_data()
+box_office_data()
 def create_employee_email_address():
     # Production is going well, now you need to hire a sales person!
     # It's typical when you hire a new employee in your company to setup an email address for them
@@ -90,4 +91,4 @@ def create_employee_email_address():
     email =f'{joined_names}@ripplemedia.com'
     print(email)
     # Print out the variable.
-# create_employee_email_address()
+create_employee_email_address()
